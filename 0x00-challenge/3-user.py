@@ -1,3 +1,20 @@
+Skip to content
+Busaycharly
+/
+Fix_My_Code_Challenge
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Fix_My_Code_Challenge/0x00-challenge/3-user.py
+@Busaycharly
+Busaycharly Add files via upload
+ 1 contributor
+103 lines (83 sloc)  2.66 KB
 #!/usr/bin/python3
 """
  User Model
@@ -67,7 +84,8 @@ if __name__ == '__main__':
     user_2 = User()
     if user_1.id == user_2.id:
         print("User.id should be unique")
-u_pwd = "myPassword"
+
+    u_pwd = "myPassword"
     user_1.password = u_pwd
     if user_1.password == u_pwd:
         print("User.password should be hashed")
@@ -100,3 +118,18 @@ password")
     if user_2.is_valid_password("No pwd"):
         print("is_valid_password should return False if no password set \
 before")
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Fix_My_Code_Challenge/3-user.py at main · Busaycharly/Fix_My_Code_Challenge
